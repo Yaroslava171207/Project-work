@@ -1,0 +1,76 @@
+body {
+    background-image: url(IMG/фон2!.jpg); 
+    background-repeat: no-repeat; 
+}  
+
+.navbar {
+    background-color:  #ee88ee;
+    overflow-y: hidden;  
+    float: left;
+    position: absolute;
+    right: 0;
+    left: 0;  
+}
+.nav-links {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+} 
+.nav-links li{
+    float: left;
+    text-decoration: underline;
+    
+}.nav-links a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: underline;
+}
+button {
+    background-color:#ee88ee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color:  #ff335f;
+}
+main {
+    padding: 60px;
+
+}
+.slider {
+    margin: auto;
+}
+
+.text {
+    position: absolute;
+    font-family: "Arial", serif;
+    top: 40px;
+    left: 45px;
+}
+.text1 {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+.text2 {
+    position: absolute;
+    top: 90px;
+    left: 600px;
+}
+footer {
+    float: left;
+    background-color:#ee88ee;
+    color: white;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

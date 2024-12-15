@@ -1,0 +1,91 @@
+body {
+    background-image: url(IMG/фон1.webp); 
+    background-repeat: no-repeat; 
+}
+
+.navbar {
+    background-color: #ee88ee;
+    overflow-y: hidden;  
+    float: left;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+}
+.nav-links li{
+    float: left;
+    text-decoration: underline;
+    
+}.nav-links a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: underline;
+}
+button {
+    background-color: #ee88ee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color:  #ff335f;
+}
+main {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    margin: auto;
+}
+.slide {
+    text-align: center; 
+    padding: 50px;
+}
+.slide.active {
+    display: block; 
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 140px;
+    left: 570px;
+    font-family: "Montserrat", serif;
+    font-size: 60px;
+}
+
+.absolute-text {
+    position: absolute;
+    top: 310px;
+    left: 515px;
+}
+.text2 {
+    position: absolute;
+    top: 360px;
+    left: 290px;
+}
+
+footer {
+    float: left;  
+    background-color: #ee88ee;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+
+}
+
